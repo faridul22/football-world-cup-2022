@@ -2,5 +2,203 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* banner styles */
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: 140px;
+    margin-top: 50px;
+    padding: 0 80px 0 106px;
+    background: #161616;
+    border-radius: 30px;
+    color: #FFFFFF;
+
+
+}
+
+.banner-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-info {
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.banner-description {
+    margin-bottom: 10px;
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.banner-button-div {
+    padding-bottom: 40px;
+}
+
+.banner-button-div span>a,
+.banner-button-div span {
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    width: 140px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner-thumblain img {
+    width: 100vh;
+}
+
+/* navigation bar styles */
+.blog-section {
+    width: 100%;
+    height: 100%;
+}
+
+aside>div>div {
+    margin-top: 0px;
+}
+
+.site-nav {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.site-nav .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 252px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.site-nav .button a {
+    text-decoration: none;
+    color: #161616;
+    text-align: center;
+}
+
+.diffrent-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 252px;
+    height: 64px;
+    background: red;
+    border-radius: 10px;
+}
+
+.diffrent-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+/* blog styles */
+.blog-section {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    padding-bottom: 200px;
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-details {
+    margin-left: 10px;
+}
+
+.blog-btn {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #161616;
+    width: 100px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.blog-description {
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+}
+
+
+.duration-comment .fa-message.icon {
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.duration,
+.comment {
+    margin-left: 10px;
+    font-size: 24px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+/* footer style */
+footer {
+    padding: 100px;
+    margin: auto;
+    background-color: #161616;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B9B9B9;
+    grid-gap: 30px;
+
+}
+
+.social-icons,
+a {
+    margin: 10px;
+    text-align: center;
+    color: white;
 }
