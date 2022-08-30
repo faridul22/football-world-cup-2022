@@ -1,0 +1,25 @@
+.details {
+    width: 312px;
+    height: 242px;
+    padding: 50px 30px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    margin: auto;
+}
+
+.blog-thumblain img {
+    width: 17vh;
+}
