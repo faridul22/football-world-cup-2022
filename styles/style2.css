@@ -23,3 +23,19 @@
 .blog-thumblain img {
     width: 17vh;
 }
+
+/*--------------------------------------------------------------------                                 Responsive layout 
+-----------------------------------------------------------------------*/
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .details {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .details {
+        width: auto;
+        height: auto;
+    }
+}
