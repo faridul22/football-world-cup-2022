@@ -58,6 +58,14 @@ body {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 20px;
+    transition: padding 5s, border 5s, color 3s;
+}
+
+/* Animation */
+.banner-button-div span:hover {
+    padding-right: 40px;
+    color: blue;
+    border: 2px solid gold;
 }
 
 .banner-thumblain img {
