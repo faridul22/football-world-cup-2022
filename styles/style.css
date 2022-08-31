@@ -171,6 +171,11 @@ aside>div>div {
     color: rgba(22, 22, 22, 0.7);
 }
 
+/* View button */
+.diffrent-btn.view-btn {
+    display: none;
+}
+
 /* footer style */
 footer {
     padding: 100px;
@@ -194,6 +199,11 @@ hr {
     color: #B9B9B9;
     grid-gap: 30px;
 
+}
+
+.footer-info p:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .social-icons,
@@ -302,6 +312,20 @@ a {
         grid-template-columns: repeat(2, 1fr);
         margin: auto;
     }
+
+    /* View button */
+    .diffrent-btn.view-btn {
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .view-btn span {
+        display: flex;
+        flex-direction: column;
+        padding-top: 7px;
+    }
+
+
 
     /* footer style */
     footer {
